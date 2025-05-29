@@ -1,0 +1,86 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8fdf5;
+  color: #333;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.titre {
+  text-align: center;
+  margin-bottom: 20px;
+  animation: slideIn 1.2s ease-out;
+}
+
+p{
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #a8d6a8;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #a4e2a4;
+  color: #1d3b1d;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+  .menu {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    padding: 8px 16px;
+    background-color: #c5e1a5;
+    border-radius: 5px;
+  }
+  
+  .menu a:hover {
+    background-color: #aed581;
+  }
+
+  .lien {
+    display: inline-block;
+    background-color: #99cf04;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .lien:hover {
+    background-color: #a1c935;
+  }
+
+  .center {
+    text-align: center;
+  }

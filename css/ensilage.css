@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f8e9;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2e7d32;
+    margin-bottom: 30px;
+    text-decoration: underline;
+  }
+  
+  .ensilage-section {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  
+  .infobulle {
+    text-decoration: underline;
+    cursor: help;
+  }
+  
+  ol {
+    margin-top: 20px;
+    padding-left: 25px;
+  }
+  
+  ol li {
+    margin-bottom: 8px;
+  }
+
+  video {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .menu {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    padding: 8px 16px;
+    background-color: #c5e1a5;
+    border-radius: 5px;
+  }
+  
+  .menu a:hover {
+    background-color: #aed581;
+  }
+  
+
+  
+  

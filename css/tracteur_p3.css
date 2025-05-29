@@ -1,0 +1,70 @@
+body {
+  background-color: #21dcfd;
+  font-family: Verdana, sans-serif;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: #030e0f;
+  margin-bottom: 40px;
+}
+
+.tracteur {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #000000;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+.tracteur h2 {
+  color: #1aabff;
+}
+
+.tracteur img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.lien {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #a9e27b;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.lien:hover {
+  background-color: #cc6c00;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+  padding: 8px 16px;
+  background-color: #c5e1a5;
+  border-radius: 5px;
+}
+
+.menu a:hover {
+  background-color: #aed581;
+}
